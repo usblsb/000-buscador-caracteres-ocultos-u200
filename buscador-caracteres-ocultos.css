@@ -1,0 +1,51 @@
+/* jlmr-styles.css */
+.jlmr-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.jlmr-grid-100 {
+    padding: 10px;
+}
+
+.jlmr-container h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.jlmr-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0073aa;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.jlmr-button:hover {
+    background-color: #005077;
+}
+
+.jlmr-button-secondary {
+    background-color: #46b450;
+}
+
+.jlmr-button-secondary:hover {
+    background-color: #368035;
+}
+
+.jlmr-resultados {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ayuda - Buscador de Caracteres Ocultos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ayuda para el Plugin: Buscador de Caracteres Ocultos</h1>
+    
+    <h2>¿Qué hace este plugin?</h2>
+    <p>
+        Este plugin permite buscar en la base de datos de WordPress fotos que contienen el carácter oculto '\u200E' en sus nombres. Utiliza un shortcode <code>[jlmr_buscador_caracteres_ocultos]</code> para activar la funcionalidad en cualquier página o entrada del sitio. Además, permite duplicar las fotos detectadas eliminando el carácter oculto del nombre de archivo.
+    </p>
+
+    <h2>¿Cómo funciona?</h2>
+    <p>
+        Al insertar el shortcode en una página o entrada, se muestran dos botones: uno para buscar caracteres ocultos y otro para duplicar las fotos afectadas. Al hacer clic en el primer botón, el plugin realiza una búsqueda en la base de datos de WordPress, específicamente en las fotos subidas (formatos JPEG y PNG), buscando el carácter oculto. Los resultados se almacenan en un archivo de texto.
+    </p>
+    <p>
+        El segundo botón permite duplicar las fotos identificadas, eliminando el carácter oculto de sus nombres, y las guarda en una carpeta específica dentro del directorio de subidas de WordPress.
+    </p>
+
+    <h2>Utilidad del Plugin</h2>
+    <p>
+        Este plugin es especialmente útil para identificar y corregir problemas relacionados con nombres de archivos de imágenes que contienen caracteres ocultos. Esto puede ser crucial para el SEO y la gestión de archivos.
+    </p>
+
+    <h2>¿Cómo se usa?</h2>
+    <p>
+        Para utilizar este plugin, sigue estos pasos:
+        <ol>
+            <li>Inserta el shortcode <code>[jlmr_buscador_caracteres_ocultos]</code> en la página o entrada donde quieras utilizar la funcionalidad.</li>
+            <li>Visita la página o entrada en tu sitio web y verás dos botones: "Buscar Caracteres Ocultos" y "Duplicar foto sin carácter oculto".</li>
+            <li>Para iniciar la búsqueda de caracteres ocultos, haz clic en "Buscar Caracteres Ocultos".</li>
+            <li>Para duplicar y limpiar las fotos detectadas, haz clic en "Duplicar foto sin carácter oculto".</li>
+        </ol>
+    </p>
+
+    <p>
+        Nota: Este plugin requiere que tu sitio web esté corriendo en WordPress y que tengas permisos para agregar shortcodes y modificar archivos.
+    </p>
+</body>
+</html>
